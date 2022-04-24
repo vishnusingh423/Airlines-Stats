@@ -1,0 +1,25 @@
+table {
+    border-collapse:collapse;
+  }
+  
+  td {
+    padding:12px 14px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times,
+      "Times New Roman", "serif";
+
+  }
+  
+  tr:nth-child(2n-1) {
+    background-color: aliceblue;
+  }
+  
+  tr:nth-child(1),
+  td:nth-child(1) {
+    background-color: aqua;
+  
+  }
+  
+  tr:not(:first-child) td:nth-child(1) {
+    z-index: 0;
+  }
+  
